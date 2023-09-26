@@ -1,7 +1,3 @@
-data "aws_caller_identity" "current" {}
-data "aws_partition" "current" {}
-data "aws_region" "current" {}
-
 locals {
   sns_topic_arn         = var.sns_topic_arn
 }
